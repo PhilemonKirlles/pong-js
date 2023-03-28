@@ -71,10 +71,25 @@ var Game = {
     Pong.context.font = '40px Roboto';
     Pong.context.fillStyle = this.color;
 
-    Pong.context.fillReact 
+//draw a rectangle 
+    Pong.context.fillRect 
       Pong.canvas.width / 2 -350,
-      Pong.canvas.height /2 -48, 
+      Pong.canvas.height /v2 -48, 
       700,
       100
     
 };
+
+// change color
+Pong.context.fillStyle = '#fff4ff'
+
+//end game menu
+Pong.context.fillText, text,
+  Pong.canvas.width / 2,
+  Pong.canvas.height / 2 +15
+};
+
+setTimeout (function () {
+  Pong = object.assign( {}, Game);
+  Pong initialize();
+}, 3000);
